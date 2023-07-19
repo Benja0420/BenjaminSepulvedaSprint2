@@ -1,0 +1,152 @@
+:root {
+    --naranja: #FFB84C;
+    --rosa: #F266AB;
+    --violeta: #A459D1;
+    --celeste: #2CD3E1;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    min-height: 10vh;
+    background-color: var(--violeta);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerLogo {
+    height: 7rem;
+
+}
+
+.headerNav {
+    display: flex;
+    gap: 1rem;
+    margin: 1rem;
+}
+
+.navA {
+    color: white;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    background-color: var(--celeste);
+    text-decoration: none;
+}
+
+.navA:hover {
+    background-color: #68e6f1;
+    color: var(--naranja);
+}
+
+a[href="#"] {
+    background-color: #07aebd;
+}
+
+main {
+    min-height: 84vh;
+    background-color: var(--rosa);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.banner {
+    width: 1280px;
+    height: 420px;
+    object-fit: cover;
+    border-radius: 16px;
+}
+
+.album {
+    gap: 16px;
+    display: flex;
+    width: 1280px;
+    height: 420px;
+    align-items: center;
+}
+
+.card {
+    border-radius: 16px;
+    background-color: var(--naranja);
+    text-align: left;
+    align-items: center;
+    display: flex;
+    height: 420px;
+    width: 632px;
+}
+
+.card2 {
+    background-color: var(--naranja);
+    width: 933px;
+    height: 420px;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card3 {
+    border-radius: 16px;
+    background-color: var(--naranja);
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    width: 331px;
+    height: 420px;
+}
+
+.cardText{
+    text-align: center;
+
+}
+
+.cardImg {
+    height: 420px;
+    object-fit: cover;
+    border-radius: 16px;
+    width: 632px;
+}
+
+.cardImg2 {
+    height: 420px;
+    border-radius: 16px;
+}
+
+.contact {
+    padding: 16px;
+    border-radius: 8px;
+    background-color: var(--naranja);
+    display: flex;
+    justify-content: space-between;
+    width: 1248px;
+}
+
+table {
+    background-color: var(--naranja);
+    text-align: center;
+    height: 420px;
+    width: 1280px;
+    border-collapse: collapse;
+}
+
+th {
+    border: solid var(--celeste);
+}
+
+td {
+    border: solid var(--celeste);
+}
+
+.footer {
+    background-color: var(--violeta);
+    min-height: 6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
